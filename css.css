@@ -1,0 +1,40 @@
+h1{line-height: 100px}
+h1{letter-spacing: 7px}
+h1{animation: animaciya 5s infinite;}
+@keyframes animaciya {
+  0%, 1% {opacity: 1;}
+}
+h1{text-align: center}
+
+.drop_main{
+	border:1px solid;
+	margin-left: 200px;
+	margin-right: 1150px;
+	margin-top: 20px;
+}
+
+.drop_menu{
+	border:1px solid;
+	margin-left: 450px;
+	margin-right: 900px;
+}
+.drop_menu:hover .drop-menu{
+	opacity:1;
+	 animation: animaciya 1.5s;}
+	@keyframes animaciya {
+	0%, 10% {transform: scale(0, 0);
+}	
+}
+
+body{
+	font-family: open sans,sans-serif;
+	font-weight: 300;
+}
+.drop-menu{
+	animation: animaciya 8s;
+	text-align: -webkit-match-parent;
+	 animation:none;
+     
+
+	opacity:0;
+}	
